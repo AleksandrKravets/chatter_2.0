@@ -1,0 +1,22 @@
+.message-to-reply {
+    padding-left: 5px;
+
+    &__owner-nickname {
+        color: purple;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__text {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    &_border-black {
+        border-left: 2px solid black;
+    }
+
+    &_border-white {
+        border-left: 2px solid white;
+    }
+}

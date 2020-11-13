@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kravets.Chatter.Common\Kravets.Chatter.Common.csproj" />
+    <ProjectReference Include="..\Kravets.Chatter.DAL.Contracts\Kravets.Chatter.DAL.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

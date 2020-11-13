@@ -1,0 +1,21 @@
+@import './../../../variables';
+
+.content {
+    padding: 10px;
+    border-radius: 5px;
+
+    &_background-grey {
+        background: $grey;
+        color: $white;
+    }
+
+    &_background-green {
+        background: $green;
+        color: $black;
+    }
+
+    &_background-yellow {
+        background: $yellow;
+        color: $black;
+    }
+}

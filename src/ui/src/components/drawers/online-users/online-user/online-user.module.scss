@@ -1,0 +1,41 @@
+// @import './../../../../variables';
+
+.online-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 15px;
+    transition: .3s;
+
+    &:hover {
+        background: rgb(228, 227, 227);
+    }
+
+    &__nickname {
+        font-size: 15px;
+        font-weight: 400;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__options {
+        margin-left: 10px;
+    }
+
+    &__option {
+        cursor: pointer;
+        font-size: 15px;
+
+        &_red {
+            color: rgb(206, 61, 61);
+        }
+
+        &_green {
+            color: rgb(44, 148, 44);
+        }
+
+        &_yellow {
+            color: yellow;
+        }
+    }
+}

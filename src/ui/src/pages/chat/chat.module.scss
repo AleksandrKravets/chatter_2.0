@@ -1,0 +1,48 @@
+@import './../../variables';
+
+.chat-page {
+    height: 100%;
+
+    &__container {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 100%;
+    }
+
+    &__messages {
+        overflow-y: scroll;
+        height: 100%;
+    }
+
+    &__footer {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+
+    &__message {
+        padding: 10px 0;
+        display: flex;
+
+        &_right {
+            justify-content: flex-end;
+        }
+
+        &_left {
+            justify-content: flex-start;
+        }
+    }
+}
+
+.message-loading {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.load-more-messages-btn {
+    color: $primary;
+}

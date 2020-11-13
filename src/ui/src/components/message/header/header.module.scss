@@ -1,0 +1,11 @@
+@import './../../../variables';
+
+.header {
+    &__owner-nickname {
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        color: $primary;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

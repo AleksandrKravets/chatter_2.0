@@ -1,0 +1,47 @@
+@import './../../variables';
+
+.connection-state {
+    font-size: 16px;
+    padding: 5px;
+    // color: $white;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &__spinner {
+        margin-left: 10px;
+        animation: rotate 2s linear infinite;
+        width: 15px;
+        height: 15px;
+    }
+
+    &__path {
+        stroke: $white;
+        stroke-linecap: round;
+        animation: dash 1.5s ease-in-out infinite;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes dash {
+        0% {
+            stroke-dasharray: 1, 150;
+            stroke-dashoffset: 0;
+        }
+
+        50% {
+            stroke-dasharray: 90, 150;
+            stroke-dashoffset: -35;
+        }
+
+        100% {
+            stroke-dasharray: 90, 150;
+            stroke-dashoffset: -124;
+        }
+    }
+}

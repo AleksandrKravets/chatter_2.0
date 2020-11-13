@@ -1,0 +1,15 @@
+.body {
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        word-wrap: break-word;
+
+        &_right {
+            text-align: right;
+        }
+
+        &_left {
+            text-align: left;
+        }
+    }
+}

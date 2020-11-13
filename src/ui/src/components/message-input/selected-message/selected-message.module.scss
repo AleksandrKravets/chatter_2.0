@@ -1,0 +1,32 @@
+@import './../../../variables';
+
+.selected-message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background: $green;
+    color: $black;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    &__type-icon {
+        margin-right: 10px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+
+    &__option {
+        cursor: pointer;
+    }
+}

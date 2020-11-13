@@ -1,0 +1,18 @@
+@import './../../../variables';
+
+$updated-label: rgb(62, 161, 62);
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__label {
+        font-size: 13px;
+        font-weight: 600;
+        
+        &_green {
+            color: $updated-label;
+        }
+    }
+}

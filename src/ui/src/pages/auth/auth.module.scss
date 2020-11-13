@@ -1,0 +1,40 @@
+@import './../../variables';
+
+.auth-page {
+    height: 100%;
+    color: $white;
+    font-size: 15px;
+    // font-weight: 400;
+    background: $black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__application-name {
+        margin-top: 10%;
+        color: $primary;
+        font-size: 45px;
+        font-weight: 500;
+        padding: 30px;
+    }
+
+    &__form {
+        min-width: 30%;
+        padding: 50px 60px;
+        border-radius: 7px;
+        background: $grey; //rgb(236, 236, 236);
+    }
+}
+
+
+.form-control {
+    &__label {
+        margin-bottom: 5px;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
